@@ -1,0 +1,20 @@
+# Secrets and environment variables (NEVER commit secrets)
+.env
+.env.*
+*.pem
+*.key
+
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# Node.js / Frontend / Android artifacts
+node_modules/
+.next/
+dist/
+build/
+.expo/
+
+# OS and editor files
+.DS_Store
+*.log
